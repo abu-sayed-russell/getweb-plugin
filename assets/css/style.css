@@ -1,0 +1,24 @@
+/* This is wp custom plugin */
+.regular-text{ width: 50%!important; }
+
+.error{
+	color: #a94442!important;
+	background-color: #f2dede !important;
+	border-left-color: #a94442!important;
+}
+.updated {
+	color: #3c763d!important;
+	background-color: #dff0d8!important;
+	border-left-color: #3c763d!important;
+}
+.settings-error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-radius: 4px;
+}
+.getweb_plugin p.submit{ margin-left: 50%!important }

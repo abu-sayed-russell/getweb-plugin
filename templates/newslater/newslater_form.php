@@ -1,0 +1,1 @@
+<div class="wrap">  <?php html_head('Newslater Option'); ?>  <?php settings_errors(); ?>  <form method="post" action="options.php">    <?php    settings_fields( 'getweb_plugin_newslater_settings' );    do_settings_sections( 'getweb_newslater' );    getweb_submit_button();    ?>  </form>  <?php html_footer(); ?></div>

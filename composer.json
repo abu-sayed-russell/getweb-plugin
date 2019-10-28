@@ -1,0 +1,19 @@
+{
+    "name": "getwebinc/gutenberg-custom-post",
+    "description": "Awesome Gutenberg Custom Post Plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "getwebtheme",
+            "email": "abusayedrussell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    }
+}

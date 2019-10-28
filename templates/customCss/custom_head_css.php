@@ -1,0 +1,1 @@
+<?php$custom_css = esc_attr( get_option( 'getweb_custom_css' ) );if( !empty( $custom_css ) ):	echo '<style>' . $custom_css . '</style>';endif;?>
