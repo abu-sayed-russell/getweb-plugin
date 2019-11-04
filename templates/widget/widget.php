@@ -9,7 +9,6 @@
       </a>
     </li>
     <li><a href="#tab-3">Export</a></li>
-    <li><a href="#tab-4">Export</a></li>
   </ul>
 
   <div class="tab-content">
