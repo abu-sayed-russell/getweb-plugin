@@ -18,7 +18,7 @@ class Enqueue extends BaseController {
 	function enqueue( ) {
 		$slug          = "";
 		$page_includes = array( "getweb_form", "getweb_plugin","getweb_cpt","getweb_taxonomy","getweb_cwm","getweb_css","getweb_sidebar","getweb_newslater" );
-		$currentPage   = $_GET['page'];
+		$currentPage   = isset($_GET['page']) ? $_GET['page'] : '';
 		if ( in_array( $currentPage, $page_includes ) ) {
 			// enqueue all our style
 			wp_enqueue_style( "getweb-bootstrap-css", $this->plugin_url . 'assets/css/bootstrap.min.css', '', WETWEB_VERSION );
